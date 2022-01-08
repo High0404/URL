@@ -20,7 +20,7 @@ then
    b[${#b[*]}]=${appname}${url}
    continue
 else
-   echo -e "${url}符合条件"
+   echo -e "${url}符合条件111"
 #不重复则写入数组
     a[${#a[*]}]=${url}
 #写入配置文件
